@@ -1,0 +1,45 @@
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet>
+    <Header>
+      <Title>GoogleMetaTags</Title>
+      <Shortcut>meta</Shortcut>
+      <Description>Snippet para etiquetas meta de Google Bot</Description>
+      <Author>Tu Nombre</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>title</ID>
+          <ToolTip>Título de la página</ToolTip>
+          <Default>Your Page Title</Default>
+        </Literal>
+        <Literal>
+          <ID>description</ID>
+          <ToolTip>Descripción de la página</ToolTip>
+          <Default>Your page description goes here.</Default>
+        </Literal>
+        <Literal>
+          <ID=keywords</ID>
+          <ToolTip>Palabras clave</ToolTip>
+          <Default>keyword1, keyword2, keyword3</Default>
+        </Literal>
+        <Literal>
+          <ID>robots</ID>
+          <ToolTip>Instrucciones para Google Bot</ToolTip>
+          <Default>index, follow</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="HTML">
+        <![CDATA[
+        <meta name="title" content="$title$" />
+        <meta name="description" content="$description$" />
+        <meta name="keywords" content="$keywords$" />
+        <meta name="robots" content="$robots$" />
+        ]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
