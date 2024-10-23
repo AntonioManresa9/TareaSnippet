@@ -11,7 +11,7 @@ En esta sección, presentamos una colección de snippets clave para el desarroll
 ## Cómo usar
 Para utilizar estos snippets, simplemente copia el código correspondiente y pégalo en tu proyecto. Asegúrate de personalizarlo según tus necesidades. Aquí puedes incluir un enlace o un espacio para un video tutorial que explique el proceso de uso en detalle.
 
-![Gif Snippet](https://imgur.com/a/V9VZCmP)
+![Demostración de uso](https://i.imgur.com/Bnaew5z.gif)
 
 ## Conclusión
 En conclusión, esta colección de snippets optimiza el desarrollo web al incluir elementos clave como etiquetas meta, enlaces, footers y redes sociales.
